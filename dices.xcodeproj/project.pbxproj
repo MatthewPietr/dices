@@ -79,6 +79,7 @@
 		8C80A91B253B974D000D6C44 = {
 			isa = PBXGroup;
 			children = (
+				8C80A95D253BB8D9000D6C44 /* Sounds */,
 				8C80A926253B974D000D6C44 /* dices */,
 				8C80A93D253B9754000D6C44 /* dicesTests */,
 				8C80A948253B9754000D6C44 /* dicesUITests */,
@@ -126,6 +127,13 @@
 				8C80A94B253B9754000D6C44 /* Info.plist */,
 			);
 			path = dicesUITests;
+			sourceTree = "<group>";
+		};
+		8C80A95D253BB8D9000D6C44 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

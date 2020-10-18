@@ -25,7 +25,7 @@ class ViewController: UIViewController {
     }
     
     func rollDice() {
-        playSound(sound: "roll", type: "wav")
+        playSound(sound: "roll", type: ".wav")
         print("We rollin dice")
         
         let rolledNumber = Int.random(in: 1...20)
@@ -36,10 +36,10 @@ class ViewController: UIViewController {
         
         if(imageName == "d1") {
             criticalLabel.text = "Critical MAC!"
-            playSound(sound: "boo", type: "wav")
+            playSound(sound: "boo", type: ".wav")
         } else if(imageName == "d20") {
             criticalLabel.text = "Critical Windows!"
-            playSound(sound: "yay", type: "wav")
+            playSound(sound: "yay", type: ".wav")
         } else {
             criticalLabel.text = ""
         }

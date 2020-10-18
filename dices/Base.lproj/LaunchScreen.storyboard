@@ -23,8 +23,9 @@
                                     <constraint firstAttribute="width" constant="256" id="gWE-LS-ZQ5"/>
                                 </constraints>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="CS 315 Dices Matthew Pietrucha" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZRa-zP-1JM">
+                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="CS 315 Dices Matthew Pietrucha" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZRa-zP-1JM">
                                 <rect key="frame" x="43" y="694" width="328" height="35"/>
+                                <color key="textColor" systemColor="linkColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -33,9 +34,10 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="gef-qE-xIH" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="PbM-P3-Q2j"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ZRa-zP-1JM" secondAttribute="bottom" constant="70" id="RIb-aO-TFR"/>
                             <constraint firstItem="ZRa-zP-1JM" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="U1G-tH-1wF"/>
                             <constraint firstItem="gef-qE-xIH" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="dLw-bq-dJL"/>
-                            <constraint firstItem="ZRa-zP-1JM" firstAttribute="top" secondItem="gef-qE-xIH" secondAttribute="bottom" constant="118" id="j2S-Tl-0nf"/>
+                            <constraint firstItem="ZRa-zP-1JM" firstAttribute="top" secondItem="gef-qE-xIH" secondAttribute="bottom" priority="250" constant="118" id="j2S-Tl-0nf"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -46,6 +48,9 @@
     </scenes>
     <resources>
         <image name="download" width="110" height="114.5"/>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

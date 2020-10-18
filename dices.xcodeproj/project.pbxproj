@@ -15,6 +15,9 @@
 		8C80A934253B9754000D6C44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C80A932253B9754000D6C44 /* LaunchScreen.storyboard */; };
 		8C80A93F253B9754000D6C44 /* dicesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C80A93E253B9754000D6C44 /* dicesTests.swift */; };
 		8C80A94A253B9754000D6C44 /* dicesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C80A949253B9754000D6C44 /* dicesUITests.swift */; };
+		8CA93C3E253CE42600859B6C /* boo.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8CA93C3B253CE42600859B6C /* boo.wav */; };
+		8CA93C3F253CE42600859B6C /* yay.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8CA93C3C253CE42600859B6C /* yay.wav */; };
+		8CA93C40253CE42600859B6C /* roll.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8CA93C3D253CE42600859B6C /* roll.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		8C80A945253B9754000D6C44 /* dicesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dicesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C80A949253B9754000D6C44 /* dicesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dicesUITests.swift; sourceTree = "<group>"; };
 		8C80A94B253B9754000D6C44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CA93C3B253CE42600859B6C /* boo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = boo.wav; sourceTree = "<group>"; };
+		8CA93C3C253CE42600859B6C /* yay.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = yay.wav; sourceTree = "<group>"; };
+		8CA93C3D253CE42600859B6C /* roll.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = roll.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +138,9 @@
 		8C80A95D253BB8D9000D6C44 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				8CA93C3B253CE42600859B6C /* boo.wav */,
+				8CA93C3D253CE42600859B6C /* roll.wav */,
+				8CA93C3C253CE42600859B6C /* yay.wav */,
 			);
 			path = Sounds;
 			sourceTree = "<group>";
@@ -239,9 +248,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CA93C3F253CE42600859B6C /* yay.wav in Resources */,
 				8C80A934253B9754000D6C44 /* LaunchScreen.storyboard in Resources */,
 				8C80A931253B9754000D6C44 /* Assets.xcassets in Resources */,
+				8CA93C40253CE42600859B6C /* roll.wav in Resources */,
 				8C80A92F253B974D000D6C44 /* Main.storyboard in Resources */,
+				8CA93C3E253CE42600859B6C /* boo.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
